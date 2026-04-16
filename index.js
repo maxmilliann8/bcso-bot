@@ -19,7 +19,7 @@ function formatSure(ms) {
 function mesaiPaneliOlustur() {
   const embed = new EmbedBuilder()
     .setTitle("🚔  BCSD — Mesai Paneli")
-    .setDescription("```\nBlaine County Sheriff Department\nFiveM Mesai Takip Sistemi\n```\nAşağıdaki butonları kullanarak mesainizi yönetin.")
+    .setDescription("```\nBlaine County Sheriff Office\nMesai Takip Sistemi\n```\nAşağıdaki butonları kullanarak mesainizi yönetin.")
     .setColor(0x1a3a5c)
     .addFields(
       { name: "🟢  Mesai Başlat", value: "Göreve başladığınızda saatinizi kayıt altına alır.", inline: false },
