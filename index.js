@@ -16,9 +16,9 @@ const client = new Client({
 // AYARLAR - Kendi sunucunuza göre değiştirin
 // ============================================================
 const CONFIG = {
-  TOKEN: "MTQ5NDMyMjkwODE2Njc1MDI3OQ.G5eMsc.KszhTO45hvGL4kzFfLJ5Fs5PgKe6QCrm0wAybA",
-  MESAI_KANAL_ID: "1494322752767660132",       // Panelin gönderileceği kanal
-  YETKILI_ROL_ID: "1131592697170370640",             // Paneli kurabilecek rol (opsiyonel)
+  TOKEN: process.env.TOKEN,
+  YETKILI_ROL_ID: process.env.YETKILI_ROL_ID,
+};
 };
 // ============================================================
 
