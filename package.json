@@ -1,7 +1,7 @@
 {
   "name": "bcso-mesai-botu",
   "version": "1.0.0",
-  "description": "Blaine County Sheriff Office Mesai Takip Botu",
+  "description": "FiveM Blaine County Sheriff Office Mesai Takip Botu",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
